@@ -1,0 +1,19 @@
+#include "Extensions/Hack Installation.txt"
+
+#include "source/zombie.lyn.event"
+
+PUSH
+
+ORG $0154E8
+POIN ProcScr_RaiseLoop
+
+ORG $02B1C4
+jumpToHack(NuBattleUpdateBattleStats)
+
+ORG $032728
+jumpToHack(NuKillUnitOnCombatDeath)
+
+ORG $5922DC
+POIN NuItemGot_DisplayLePopup
+
+POP

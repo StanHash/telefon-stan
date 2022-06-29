@@ -1,0 +1,13 @@
+
+.*
+!.git*
+
+*.gba
+*.ups
+*.sym
+*.sav
+
+*.o
+*.lyn.event
+*.asm
+*.dmp

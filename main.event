@@ -1,0 +1,4 @@
+ORG $EFB2E0
+#incbin "wizardry/source/zombie.dmp"
+#include "wizardry/zombie.event"
+#incbin "wizardry/source/zombie.dmp"
